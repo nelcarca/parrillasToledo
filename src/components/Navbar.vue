@@ -26,13 +26,13 @@
             <router-link class="nav-link active" aria-current="page" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" to="/">Productos</router-link>
+            <router-link class="nav-link active" aria-current="page" to="Productos">Productos</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" to="/">Quinchos</router-link>
+            <router-link class="nav-link active" aria-current="page" to="Quinchos">Quinchos</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" to="/">Contacto</router-link>
+            <router-link class="nav-link active" aria-current="page" to="Contacto">Contacto</router-link>
           </li>
           
         </ul>
@@ -40,10 +40,10 @@
           <input
             class="form-control me-2"
             type="search"
-            placeholder="Search"
+            placeholder="Que deseas encontrar?"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
     </div>
