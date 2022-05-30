@@ -1,10 +1,17 @@
 <template>
-  
+  <Layout>
+    <h3>Productos</h3>
+    
+  </Layout>
 </template>
 
 <script>
-export default {
+import Layout from '@/layout/Layout.vue'
 
+export default {
+   components: {
+    Layout,
+  }
 }
 </script>
 
